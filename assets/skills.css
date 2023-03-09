@@ -1,0 +1,30 @@
+.skills{
+    padding: .7rem;
+}
+.skills__titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+.skills__iconos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.skills__img{
+    background: white;
+    padding: .1rem 2.8rem 1rem 0.2rem;
+}
+.skills__p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1280px){
+    .skills{
+        padding: 1rem 7rem;
+    }
+}

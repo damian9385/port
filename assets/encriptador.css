@@ -1,0 +1,47 @@
+.encriptador{
+    padding: .7rem;
+}
+.encriptador__img{
+    text-align: center;
+}
+.encriptador__imagen{
+    width: 90vw;
+}
+.encriptador__titulo, .encriptador__p{
+    margin: 10px auto;
+}
+.encriptador__btn{
+    display: flex;
+}
+.repo{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    margin-right: 10px;
+    padding: 1rem;
+    text-decoration: none;
+}
+.demo{
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1280px){
+    .encriptador{
+        align-items: center;
+        display: flex;
+        padding: 1rem 7rem;
+    }
+    .encriptador__imagen{
+        width: 60vw;
+    }
+    .encriptador__texto{
+        margin: 1rem auto;
+    }
+    .encriptador__titulo{
+        font-weight: bold;
+        font-size: 26px;
+    }
+}

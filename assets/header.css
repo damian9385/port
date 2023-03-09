@@ -1,0 +1,44 @@
+.body{
+    margin: 0;
+}
+.main{
+    background: #f0efef;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem;
+}
+.titulo{
+    font-weight: bold;
+}
+.li, .link__header, .paginas__li{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.lii{
+    display: none;
+}
+.paginas__ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .ul{
+        display: flex;
+    }
+    .lii{
+        display:flex
+    }
+    .link__header{
+        margin-left: 2rem;
+    }
+}
+@media screen and (min-width: 1280px){
+    .header{
+        padding: 1rem 7rem;
+    }
+}

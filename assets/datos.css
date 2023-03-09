@@ -1,0 +1,114 @@
+.datos{
+    padding: .7rem;   
+}
+.link__git, .link__datos{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.datos__titulo{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+.datos__p{
+    margin: 1rem auto;
+}
+.datos__imagen{
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+}
+
+@media screen and (min-width: 768px){
+    .datos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .uno{
+        display: flex;
+        order: 1;
+        margin-left: 4rem;
+    }
+    .tres{
+        display: flex;
+        order: 2;
+    }
+    .link__datos{
+        margin-left: 5rem;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    .datos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 7rem;
+    }
+    .uno{
+        display: flex;
+        order: 1;
+        margin: 1rem -4rem 1rem 3rem;
+    }
+    .dos{
+        width: 35rem;
+    }
+    .datos__imagen{
+        height: 14rem;
+        width: 15rem;
+    }
+    .datos__titulo{
+        margin: 5rem 0rem -2rem 0rem;
+        font-size: 31px;
+    }
+    .datos__p{
+        margin: 3rem 0rem 1rem 0rem;
+        font-size: 18px;
+    }
+    .tres{
+        display: flex;
+        margin: -3rem 0rem 1rem 0rem;
+    }
+    .link__datos{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .datos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 7rem;
+    }
+    .uno{
+        display: flex;
+        order: 1;
+        margin: 1rem 0rem 1rem 3rem;
+    }
+    .dos{
+        width: 42rem;
+    }
+    .tres{
+        display: flex;
+        margin: -3rem 0rem 1rem 0rem;
+    }
+    .datos__imagen{
+        height: 14rem;
+        width: 21rem;
+    }
+    .datos__titulo{
+        margin: 5rem 0rem -2rem 0rem;
+        font-size: 40px;
+    }
+    .datos__p{
+        margin: 3rem 0rem 1rem 0rem;
+        font-size: 20px;
+    }
+    
+    .link__datos{
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+}
